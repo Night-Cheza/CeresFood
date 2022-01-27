@@ -1,5 +1,4 @@
 # HTML_and_CSS
 
-Tried out to create a webside using tutorial and examples.
-Pictures and logo are taken from internet.
-Functionality isn't finished, especially on js side and responsiveness of the website
+Building a website usinf tutorial from udemy.com (https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/learn/lecture/27511920?start=0#overview)
+Responsivness in a progress
