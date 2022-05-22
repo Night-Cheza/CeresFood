@@ -1,4 +1,4 @@
-# HTML_and_CSS
+# CeresFood
 
-Building a website using tutorial from udemy.com (https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/learn/lecture/27511920?start=0#overview)
-Responsivness is not applied
+The website is built for an imaginary company "CeresFood" that delivers healthy foods to subscribers. 
+Responsivness anf functionality of placing an order are not applied
