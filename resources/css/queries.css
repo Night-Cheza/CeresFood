@@ -104,7 +104,8 @@
     
     .contact-form {
         width: 80%;
-    }    
+    }  
+}  
 
 /*Small phones to small tablets: from 481px to 767px*/
 
@@ -120,10 +121,11 @@
     .col {
         width:100%;
         margin: 0% 0 4% 0%;    
-    }  
-    
-    .main-navigation {
-        display:none;
+    } 
+     
+    ul.main-navigation {
+        list-style-type: none;
+        display:grid;
     }
 
     h1 {
