@@ -279,9 +279,9 @@ header {
 
 .sticky .main-navigation li a:link,
 .sticky .main-navigation li a:visited {
-    color: #555;
+    color: rgb(50, 49, 49);
     padding: 15px 0;
-    }
+}
 
 .sticky .logo {display:none;}
 .sticky .logo-black {
@@ -329,7 +329,8 @@ header {
     height:300px;
     object-fit:cover;
     transform:scale(1.15);
-    transition:transform 0.5s; opacity 0.5s;
+    transition:transform 0.5s; 
+    opacity: 0.5s;
     
 }
 
@@ -366,7 +367,6 @@ header {
 .works-step div {
     color: #d63031;
     border: 2px solid #d63031;
-    display: inline-block;
     border-radius: 50%;
     height:50px;
     width:50px;
@@ -445,7 +445,7 @@ cite img {
     height: 55px;
     border-radius: 50%;
     margin-right: 10px;
-    vertical-align: middle;
+    vertical-align:middle;
 }
 
 

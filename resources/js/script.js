@@ -1,24 +1,14 @@
-// $(document).ready(function() {
-    
-//  /*Sticky navigation */    
-//     $('.js--section-features').waypoint(function(direction){
-//         if (direction =="down") {
-//            $('nav').addClass('sticky');
-//         } else {
-//            $('nav').removeClass('sticky');    
-//         }
-//     },  {
-//           offset:'55px;'
-//         });
-    
+let mainNav = document.getElementById("mainNav");
+let features = document.getElementById("features");
+let navPosition = mainNav.getBoundingClientRect().top;
 
-// /*Scroll on buttons*/                             
-//     $('.js--scroll-to-plans').click(function() {
-//        $('html, body').animate({scrollTop: $('.js--section-plans').offset().top},1000);   
-//     });
-    
-//     $('.js--scroll-to-start').click(function() {
-//        $('html, body').animate({scrollTop: $('.js--section-features').offset().top},1000);   
-//     });
-     
-// });
+
+window.addEventListener("scroll", e => {
+    let scrollPosition = window.scrollY;
+    if(scrollPosition > navPosition) {
+        mainNav.classList.add('sticky');
+    } else {
+        mainNav.classList.remove("sticky");
+    }
+});
+
